@@ -1,0 +1,91 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #1c1c1c;
+	color: white;
+}
+
+#gameConfig {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+#webSocketConfig {
+	width: 100%;
+	display: block;
+	text-align: center;
+  	margin-top: 16px;
+  	margin-bottom: 10px;
+}
+
+#webSocketConfig > button {
+	width: 80px;
+}
+
+#webSocketConfig > input[type="text"] {
+	width: 360px;
+}
+
+#playerSide {
+	display: inline;
+	width: 200px;
+	color: white;
+	margin-right: 20px;
+}
+
+#playerSide > fieldset {
+	display: inline;
+}	
+
+#gameHeader {
+	display: inline;
+  	margin-right: 20px;
+  	margin-top: -8px;
+}
+
+#gameHeader > h1 {
+	display: inline;
+}
+
+#windowSize {
+	display: inline;
+	width: 200px;
+	color: white;
+}
+
+#windowSize > fieldset {
+	display: inline;
+	width: 230px;
+}
+
+#buttons {
+	width: 100%;
+	display: block;
+	text-align: center;
+  	margin-top: 16px;
+  	margin-bottom: 10px;
+}
+
+#buttons > button {
+	width: 80px;
+}
+
+#myCanvas {
+	margin: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-top: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+	border-left: none;
+	border-right: none;
+}
+
+#canvasContainer {
+	text-align: center;
+}
+
+header {
+	text-align: center;
+	color: white;
+}
